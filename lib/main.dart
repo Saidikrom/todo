@@ -49,13 +49,6 @@ class _ToDoState extends State<ToDo> {
       });
     }
 
-    // void ShowToastt() => Fluttertoast.showToast(
-    //       msg: 'Rangni Tanglang',
-    //       fontSize: 18,
-    //       gravity: ToastGravity.BOTTOM,
-    //       backgroundColor: Colors.red,
-    //       textColor: Colors.white,
-    //     );
     if (takenInput.isEmpty || takenColor == Colors.black) {
       return snackBar();
     } else {
@@ -77,8 +70,8 @@ class _ToDoState extends State<ToDo> {
   }
 
   final List<ToDoModel> myToDoList = [
-    ToDoModel(color: Colors.green, name: 'name'),
-    ToDoModel(color: Colors.red, name: 'surname'),
+    ToDoModel(color: Colors.green, name: 'test'),
+    ToDoModel(color: Colors.red, name: 'today'),
   ];
 
   @override
